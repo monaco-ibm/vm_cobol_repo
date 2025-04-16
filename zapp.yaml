@@ -21,6 +21,7 @@ propertyGroups:
         type: local
         locations:
           - "**/COPYBOOK"
+          - "hello_world/copy"
       - name: syslib
         type: mvs
         locations:
