@@ -106,7 +106,7 @@ profiles:
   - name: dbb-build
     type: dbb
     settings:
-      application: hello_world
+      application: vm_cobol_repo
       command: $DBB_HOME/bin/groovyz
       buildScriptPath: /u/monaco/dbb-zappbuild/build.groovy
       buildScriptArgs: 
@@ -116,7 +116,7 @@ profiles:
        - --hlq ${zopeneditor.userbuild.userSettings.dbbHlq}
        - --outDir ${zopeneditor.userbuild.userSettings.dbbLogDir}
        - --verbose
-       - --dependencyFile ${dependencyFile}
+ #      - --dependencyFile ${dependencyFile}
       additionalDependencies:
         - hello_world/application-conf
       logFilePatterns:

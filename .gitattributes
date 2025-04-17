@@ -6,3 +6,4 @@
 *.cbl zos-working-tree-encoding=ibm-1047 git-encoding=utf-8
 *.properties zos-working-tree-encoding=ibm-1047 git-encoding=utf-8
 *.gitattributes zos-working-tree-encoding=ibm-1047 git-encoding=utf-8 
+*.userbuilddependencies zos-working-tree-encoding=ibm-1047 git-encoding=utf-8
