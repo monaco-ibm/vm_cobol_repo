@@ -111,10 +111,10 @@ profiles:
       buildScriptPath: /u/monaco/dbb-zappbuild/build.groovy
       buildScriptArgs: 
        - --userBuild
-       - --workspace ${zopeneditor.userbuild.userSettings.dbbWorkspace}
+       - --sourceDir ${zopeneditor.userbuild.userSettings.dbbWorkspace}
        - --application ${application}/hello_world
        - --hlq ${zopeneditor.userbuild.userSettings.dbbHlq}
-       - --outDir ${zopeneditor.userbuild.userSettings.dbbLogDir}
+       - --workDir ${zopeneditor.userbuild.userSettings.dbbLogDir}
        - --verbose
  #      - --dependencyFile ${dependencyFile}
       additionalDependencies:
